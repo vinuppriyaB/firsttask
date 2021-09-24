@@ -1,0 +1,113 @@
+.box{
+    height:auto;
+    width:auto;
+}
+
+hr{
+    border:1px solid black;
+    margin:5px 0px;
+}
+
+.container{
+    border:1px solid black;
+    height:auto;
+    padding:50px 50px;
+}
+
+.redtag{
+    width: 200px;
+    color:white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+     background: linear-gradient(265deg,transparent 50%,rgba(186, 39, 55, 1) 50%, rgba(186, 39, 55, 1) 50%);
+    padding:5px;
+    
+}
+p{
+ font-size: 15px;
+ text-align: justify;
+ 
+ 
+}
+.picture2{
+    min-width:125px;
+    min-height:210px;
+    background-color: lightgray;
+}
+
+
+.picture1{
+    min-height:600px;
+    min-width:100px;
+    background-color:lightgray;
+    margin:10px;
+}
+.picture3{
+    min-height:300px;
+    min-width:100px;
+    background-color:lightgray;
+    margin:10px;
+}
+
+.parent{
+    position:relative;
+    height:230px;
+    width:100%
+}
+.child1{
+    position:absolute;
+    left:0;
+    top: 0px;
+}
+.child2{
+    position:absolute;
+    left:0;
+    top:20px;
+    width:100%;
+}
+h3{
+    padding:5px 0px;
+}
+
+h5{
+    font-weight: bold;
+    color:darkred;
+    text-align: center;
+    padding:5px;
+}
+.h5_align_center{
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+ .row3_parent{
+    position:relative;
+    left:0px;
+    top:0px;
+}
+.row3_child{
+    position:absolute;
+    left:375px;
+    top:47px;
+}
+.row4_parent{
+ position:relative;
+    left:0px;
+    top:0px;
+
+}
+.row4_child1{
+ position:absolute;
+    left:375px;
+    top:86px;
+
+}
+.row4_child2{
+ position:absolute;
+    left:730px;
+    top:83px;
+
+}
+
+}
